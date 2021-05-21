@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cosu_pra">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_cosu_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_cosu_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cosu_pra">
+
+        <activity android:name=".SplashActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LogoutActivity" />
+        <activity android:name=".FindActivity" />
+        <activity android:name=".ChattingActivity" />
+        <activity android:name=".Main.MainActivity" />
+        <activity android:name=".Main.PlusActivity" />
+        <activity android:name=".Main.DetailActivity" />
+        <activity android:name=".Main.SearchActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>
